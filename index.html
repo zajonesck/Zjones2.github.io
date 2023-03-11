@@ -204,7 +204,7 @@
           <section class="service">
             <h3 class="h3 service-title">What I'm doing</h3>
 
-            <ul class="service-list">
+            <ul class="content-card">
               
                 <div class="service-icon-box">
                   <img
@@ -418,14 +418,6 @@
                 </a>
               </li>
 
-              <li class="tech-item">
-                <a href="#">
-                  <img
-                    src="./assets/images/logo-6-color.png"
-                    alt="tech logo"
-                  />
-                </a>
-              </li>
             </ul>
           </section>
         </article>
@@ -520,10 +512,19 @@
             </ol>
           </section>
 
-          <section class="skill">
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+
             <h3 class="h3 skills-title">Skills</h3>
 
-            <ul class="skills-list content-card">
+            <ol class="timeline-list">
+
+
+            <ul class="skills-list">
               <li class="skills-item">
                  <h5 class="h5">JavaScript - React, Vue, & Node</h5>
               </li>
@@ -535,7 +536,6 @@
               <li class="skills-item">
                   <h5 class="h5">Ruby on Rails</h5>
               </li>
-
 
               <li class="skills-item">
                   <h5 class="h5">HTML</h5>
@@ -557,7 +557,10 @@
                 <h5 class="h5">Test Driven Devolpment</h5>
               </li>
             </ul>
-          </section>
+          </p>
+        </li>
+            </ol>
+    </section>
         </article>
 
         <!--
@@ -856,7 +859,7 @@
           <section class="contact-form">
             <h3 class="h3 form-title">Contact Form</h3>
 
-            <form action="mailto:zajonesck83@gmail.com" method="POST" enctype=”text/plain” class="form" data-form>
+            <form method="POST" action="process-form.php"  enctype=”text/plain” class="form" data-form>
               <div class="input-wrapper">
                 <input
                   type="text"
