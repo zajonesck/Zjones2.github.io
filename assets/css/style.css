@@ -781,7 +781,6 @@ main {
 
 .tech-list {
   display: flex;
-  flex-wrap: nowrap;
   justify-content: flex-start;
   align-items: flex-start;
   gap: 15px;
