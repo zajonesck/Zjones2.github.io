@@ -800,7 +800,8 @@ main {
 }
 
 .tech-item img {
-  width: 100%;
+  max-width: 150px;
+  max-height: 150px;
   filter: grayscale(1);
   transition: var(--transition-1);
 }
