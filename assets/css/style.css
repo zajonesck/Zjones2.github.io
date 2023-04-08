@@ -1581,7 +1581,7 @@ textarea.form-input::-webkit-resizer {
   /* techs */
   .lower {
     vertical-align: bottom;
-    margin-top: 10px;
+    margin-top: 50px;
   }
 
   .tech-list {
