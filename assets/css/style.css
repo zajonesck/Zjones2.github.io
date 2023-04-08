@@ -1579,6 +1579,9 @@ textarea.form-input::-webkit-resizer {
   }
 
   /* techs */
+  .lower {
+    vertical-align: bottom;
+  }
 
   .tech-list {
     gap: 50px;
