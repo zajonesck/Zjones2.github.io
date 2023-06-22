@@ -808,6 +808,7 @@ main {
 
 .tech-item img:hover {
   filter: grayscale(0);
+  pointer-events: none;
 }
 
 /*-----------------------------------*\
