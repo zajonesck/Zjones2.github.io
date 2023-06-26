@@ -806,10 +806,10 @@ main {
   transition: var(--transition-1);
 }
 
-.tech-item img:hover {
+/* .tech-item img:hover {
   filter: grayscale(0);
   pointer-events: none;
-}
+} */
 
 /*-----------------------------------*\
   #RESUME
