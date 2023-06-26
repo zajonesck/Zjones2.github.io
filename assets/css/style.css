@@ -802,7 +802,7 @@ main {
 .tech-item img {
   max-width: 150px;
   max-height: 150px;
-  filter: grayscale(1);
+  /* filter: grayscale(1); */
   transition: var(--transition-1);
 }
 
