@@ -792,6 +792,7 @@ main {
   overscroll-behavior-inline: contain;
   scroll-snap-type: inline mandatory;
   scroll-padding-inline: 25px;
+  cursor: default;
 }
 
 .tech-item {
@@ -806,9 +807,9 @@ main {
   transition: var(--transition-1);
 }
 
-.tech-item img:hover {
+/* .tech-item img:hover {
   pointer-events: none;
-}
+} */
 
 /*-----------------------------------*\
   #RESUME
