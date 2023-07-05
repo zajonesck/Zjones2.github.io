@@ -1840,6 +1840,15 @@ textarea.form-input::-webkit-resizer {
     font-weight: var(--fw-500);
   }
 
+  .navbar-link:hover,
+  .navbar-link:focus {
+    color: var(--light-gray-70);
+  }
+
+  .navbar-link.active {
+    color: var(--orange-yellow-crayola);
+  }
+
   /**
    * ABOUT
    */
