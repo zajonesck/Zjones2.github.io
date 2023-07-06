@@ -574,6 +574,7 @@ main {
 
 .service-icon-box img {
   margin: auto;
+  margin-bottom: 10px;
 }
 
 .service-content-box {
@@ -590,7 +591,10 @@ main {
   font-weight: var(--fw-3);
   line-height: 1.6;
 }
-
+.service-item-title,
+.service-item-text {
+  text-align: center;
+}
 /**
  * #testimonials 
  */
