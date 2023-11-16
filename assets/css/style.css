@@ -831,6 +831,14 @@ main {
   margin-bottom: 30px;
 }
 
+.timeline-link {
+  color: white; /* Sets the link color to white */
+  text-decoration: none; /* Removes the underline */
+}
+.timeline-link:hover {
+  text-decoration: underline; /* Adds underline on hover for better UX */
+}
+
 .timeline .title-wrapper {
   display: flex;
   align-items: center;
